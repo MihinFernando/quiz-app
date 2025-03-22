@@ -20,7 +20,6 @@ public class QuestionController {
     public ResponseEntity<List<Question>> getAllquestion()
     {
         return questionService.getAllquestion();
-        //this is the change
     }
 
     @GetMapping("category/{category}")
